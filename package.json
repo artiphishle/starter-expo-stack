@@ -1,0 +1,70 @@
+{
+  "name": "ch-throttle",
+  "version": "1.0.3",
+  "scripts": {
+    "eslint:fix": "eslint \"**/*.{ts,tsx}\" --fix",
+    "format": "yarn run eslint:fix && yarn run prettier:write",
+    "prebuild": "expo prebuild",
+    "prettier:write": "prettier \"**/*.{js,jsx,ts,tsx,json}\" --write",
+    "start": "expo start",
+    "start:android": "expo start --android",
+    "start:ios": "expo start --ios",
+    "start:web": "expo start --web"
+  },
+  "dependencies": {
+    "@expo/vector-icons": "^14.0.0",
+    "@react-native-async-storage/async-storage": "1.21.0",
+    "@react-navigation/bottom-tabs": "^6.5.12",
+    "@react-navigation/drawer": "^6.6.7",
+    "@react-navigation/native": "^6.1.10",
+    "@supabase/supabase-js": "^2.39.3",
+    "expo": "~50.0.6",
+    "expo-constants": "~15.4.5",
+    "expo-linking": "~6.2.2",
+    "expo-router": "^3.4.7",
+    "expo-status-bar": "~1.11.1",
+    "expo-system-ui": "~2.9.3",
+    "expo-web-browser": "~12.8.2",
+    "nativewind": "^4.0.1",
+    "react": "18.2.0",
+    "react-dom": "18.2.0",
+    "react-native": "0.73.4",
+    "react-native-gesture-handler": "2.14.0",
+    "react-native-maps": "1.10.0",
+    "react-native-reanimated": "3.6.2",
+    "react-native-safe-area-context": "^4.9.0",
+    "react-native-screens": "~3.29.0",
+    "react-native-url-polyfill": "^2.0.0",
+    "react-native-web": "~0.19.10"
+  },
+  "devDependencies": {
+    "@babel/core": "^7.23.9",
+    "@types/react": "~18.2.55",
+    "@typescript-eslint/eslint-plugin": "^6.21.0",
+    "@typescript-eslint/parser": "^6.21.0",
+    "eslint": "^8.56.0",
+    "eslint-config-google": "^0.14.0",
+    "eslint-config-universe": "^12.0.0",
+    "expo-module-scripts": "^3.4.1",
+    "prettier": "^3.2.5",
+    "tailwindcss": "^3.4.1",
+    "typescript": "^5.3.3"
+  },
+  "eslintConfig": {
+    "extends": "universe/native"
+  },
+  "resolutions": {
+    "expo-modules-core": "~1.11.0"
+  },
+  "overrides": {
+    "expo-modules-core": "~1.11.0"
+  },
+  "expo": {
+    "install": {
+      "exclude": [
+        "react-native-safe-area-context"
+      ]
+    }
+  },
+  "private": true
+}
