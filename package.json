@@ -1,6 +1,6 @@
 {
-  "name": "ch-throttle",
-  "version": "1.0.3",
+  "name": "starter-expo-stack",
+  "version": "1.0.0",
   "scripts": {
     "eslint:fix": "eslint \"**/*.{ts,tsx}\" --fix",
     "format": "yarn run eslint:fix && yarn run prettier:write",
