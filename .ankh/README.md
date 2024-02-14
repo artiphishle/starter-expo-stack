@@ -1,16 +1,15 @@
 [![code style: prettier](https://img.shields.io/badge/code_style-prettier-ff69b4.svg?style=flat-square)](https://github.com/prettier/prettier)
 
-# 🚘 Throttle
+# 🚀 starter-expo-stack
 
-Welcome to Throttle!
+Starter with NativeWind, Supabase, TypeScript, Expo-Router
 
 ## Quickstart
 
 You can run the bash script and it will work:
 
 ```shell
-# Will be delivered soon
-./start.sh
+npx ankh
 ```
 
 ## Status
@@ -18,5 +17,5 @@ You can run the bash script and it will work:
 | ☀️  | Platform | Status | Description           |
 | --- | -------- | ------ | --------------------- |
 | ✅  | Android  | Up     | All good              |
-| 🚨  | iOS      | Down   | Will be deployed soon |
+| ✅  | iOS      | Down   | Will be deployed soon |
 | ✅  | Web      | Up     | All good              |
